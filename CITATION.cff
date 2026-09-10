@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or cite this repository, please cite the preferred manuscript below."
+title: "Structural Consciousness: Agenthood, Cognition, and the Constitution of a Subjective Field"
+authors:
+  - alias: "Ibrahim Nahvi Ibrahim"
+    affiliation: "Independent Researcher, Maldives"
+    orcid: "https://orcid.org/0009-0000-7317-5811"
+version: "1.0"
+date-released: "2026-09-01"
+repository-code: "https://github.com/iNahvi/Structural-Consciousness"
+url: "https://github.com/iNahvi/Structural-Consciousness"
+license: "CC-BY-4.0"
+keywords:
+  - consciousness
+  - structural consciousness
+  - subjective experience
+  - subjective view
+  - cognition
+  - agenthood
+  - causal organization
+  - organization-level constitutive analysis
+  - phenomenal unity
+  - artificial intelligence
+  - machine consciousness
+  - philosophy of mind
+preferred-citation:
+  type: unpublished
+  authors:
+    - alias: "Ibrahim Nahvi Ibrahim"
+      orcid: "https://orcid.org/0009-0000-7317-5811"
+  title: "Structural Consciousness: Agenthood, Cognition, and the Constitution of a Subjective Field"
+  year: 2026

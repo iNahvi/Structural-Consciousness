@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1040" viewBox="0 0 1400 1040">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#202020"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.box{fill:#fbfbfb;stroke:#202020;stroke-width:2.5}.title{font-family:'DejaVu Sans',sans-serif;font-size:29px;font-weight:700;fill:#111}.sub{font-family:'DejaVu Sans',sans-serif;font-size:18px;fill:#333}.item{font-family:'DejaVu Sans',sans-serif;font-size:21px;fill:#161616}.code{font-family:'DejaVu Sans',sans-serif;font-size:18px;font-weight:700;fill:#333}.arrow{stroke:#202020;stroke-width:2.5;fill:none;marker-end:url(#arrow)}.arrowlabel{font-family:'DejaVu Sans',sans-serif;font-size:17px;fill:#333}
+</style>
+<rect class="box" x="120" y="40" width="1160" height="245" rx="26"/>
+<text class="title" x="700.0" y="88" text-anchor="middle">AGENTHOOD</text>
+<text class="sub" x="700.0" y="118" text-anchor="middle">Definition 4: conjunction of five conditions</text>
+<text class="code" x="175.0" y="160">Id</text>
+<text class="item" x="260.0" y="160">Persistent identity</text>
+<text class="code" x="175.0" y="203">Bnd</text>
+<text class="item" x="260.0" y="203">Effective boundary</text>
+<text class="code" x="175.0" y="246">Out</text>
+<text class="item" x="260.0" y="246">Outward efficacy</text>
+<text class="code" x="695.0" y="160">In</text>
+<text class="item" x="780.0" y="160">Inward susceptibility</text>
+<text class="code" x="695.0" y="203">Via</text>
+<text class="item" x="780.0" y="203">Identity-preserving viability</text>
+<line class="arrow" x1="700" y1="285" x2="700" y2="350"/><text class="arrowlabel" x="720" y="327">required by Definition 5</text>
+<rect class="box" x="80" y="350" width="1240" height="285" rx="26"/>
+<text class="title" x="700.0" y="398" text-anchor="middle">COGNITION</text>
+<text class="sub" x="700.0" y="428" text-anchor="middle">Definition 5: Agenthood + C1-C7</text>
+<text class="code" x="135.0" y="470">C1</text>
+<text class="item" x="220.0" y="470">Historical deformation</text>
+<text class="code" x="135.0" y="513">C2</text>
+<text class="item" x="220.0" y="513">Future causal efficacy</text>
+<text class="code" x="135.0" y="556">C3</text>
+<text class="item" x="220.0" y="556">Composite regularity</text>
+<text class="code" x="135.0" y="599">C4</text>
+<text class="item" x="220.0" y="599">Partial activation</text>
+<text class="code" x="695.0" y="470">C5</text>
+<text class="item" x="780.0" y="470">Endogenous propagation</text>
+<text class="code" x="695.0" y="513">C6</text>
+<text class="item" x="780.0" y="513">Competitive feasibility</text>
+<text class="code" x="695.0" y="556">C7</text>
+<text class="item" x="780.0" y="556">Recursive landscape modification</text>
+<line class="arrow" x1="700" y1="635" x2="700" y2="700"/><text class="arrowlabel" x="720" y="677">required by Definition 8</text>
+<rect class="box" x="40" y="700" width="1320" height="300" rx="26"/>
+<text class="title" x="700.0" y="748" text-anchor="middle">STRUCTURAL CONSCIOUSNESS</text>
+<text class="sub" x="700.0" y="778" text-anchor="middle">Definition 8: Cognition + eight field conditions</text>
+<text class="code" x="95.0" y="820">Diff</text>
+<text class="item" x="180.0" y="820">Differentiation</text>
+<text class="code" x="95.0" y="863">Int</text>
+<text class="item" x="180.0" y="863">Causal integration</text>
+<text class="code" x="95.0" y="906">Eff</text>
+<text class="item" x="180.0" y="906">Agent-scale continuation efficacy</text>
+<text class="code" x="95.0" y="949">Cap</text>
+<text class="item" x="180.0" y="949">Shared finite-capacity coupling</text>
+<text class="code" x="695.0" y="820">Idx</text>
+<text class="item" x="780.0" y="820">Persistent self-indexing</text>
+<text class="code" x="695.0" y="863">Sit</text>
+<text class="item" x="780.0" y="863">Situated organization</text>
+<text class="code" x="695.0" y="906">ValMot</text>
+<text class="item" x="780.0" y="906">Field-integrated valence and motivation</text>
+<text class="code" x="695.0" y="949">Tmp</text>
+<text class="item" x="780.0" y="949">Temporal unity</text>
+</svg>

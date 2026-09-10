@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#202020"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>
+.field{fill:#fcfcfc;stroke:#202020;stroke-width:2.5}.box{fill:white;stroke:#303030;stroke-width:2}.rel{fill:#f7f7f7;stroke:#303030;stroke-width:1.8}.node{fill:white;stroke:#202020;stroke-width:2}.head{font-family:'DejaVu Sans',sans-serif;font-size:25px;font-weight:700;fill:#111}.sub{font-family:'DejaVu Sans',sans-serif;font-size:17px;fill:#333}.small{font-family:'DejaVu Sans',sans-serif;font-size:15px;fill:#333}.tiny{font-family:'DejaVu Sans',sans-serif;font-size:13px;fill:#3a3a3a}.bold{font-family:'DejaVu Sans',sans-serif;font-size:17px;font-weight:700;fill:#222}.track{stroke:#999;stroke-width:2;stroke-dasharray:7 7}.slice{stroke:#d0d0d0;stroke-width:1.4;stroke-dasharray:4 5}.causal{stroke:#202020;stroke-width:2.2;fill:none;marker-end:url(#a)}.cap{stroke:#666;stroke-width:2.1;stroke-dasharray:8 6;fill:none}.capw{stroke:#666;stroke-width:2.1;stroke-dasharray:8 6;fill:none;marker-end:url(#a)}.arrow{stroke:#202020;stroke-width:2.1;fill:none;marker-end:url(#a)}.inc{stroke:#555;stroke-width:1.8;fill:none;marker-end:url(#a)}.bracket{stroke:#202020;stroke-width:2;fill:none}
+</style>
+<rect class="box" x="45" y="28" width="390" height="88" rx="18"/>
+<text class="bold" x="240" y="62" text-anchor="middle">identity-continuation family κ_A</text>
+<text class="small" x="240" y="90" text-anchor="middle">ind_A(g_i)=κ_A for every major track</text>
+<rect class="box" x="500" y="28" width="430" height="88" rx="18"/>
+<text class="bold" x="715" y="62" text-anchor="middle">accessible capacity region B_A(t;h)</text>
+<text class="small" x="715" y="86" text-anchor="middle">bounded region; joint maintenance feasible</text>
+<text class="tiny" x="715" y="106" text-anchor="middle">joint feasible schedules + controlled reallocation</text>
+<rect class="box" x="995" y="28" width="350" height="88" rx="18"/>
+<text class="bold" x="1170" y="62" text-anchor="middle">viable-reserve comparison</text>
+<text class="small" x="1170" y="90" text-anchor="middle">comparison object of Section 5.8</text>
+<rect class="field" x="105" y="145" width="1340" height="820" rx="28"/>
+<text class="head" x="775" y="185" text-anchor="middle">temporally extended active relational structure G_A(t;h)</text>
+<text class="sub" x="775" y="212" text-anchor="middle">major constituent tracks M_A(t;h) maintained through changing field slices</text>
+<rect class="rel" x="1020" y="225" width="315" height="42" rx="10"/>
+<text class="tiny" x="1177" y="251" text-anchor="middle">Diff: ∃ i≠j with c_A(g_i)≠c_A(g_j)</text>
+<line class="causal" x1="565" y1="246" x2="625" y2="246"/><text class="tiny" x="638" y="251">Int: horizon causal edge; connected underlying graph over M_A</text>
+<line class="capw" x1="565" y1="273" x2="625" y2="273"/><text class="tiny" x="638" y="278">Cap: directed reallocation witness; track pair induces an undirected capacity edge</text>
+<line class="slice" x1="500" y1="295" x2="500" y2="805"/>
+<text class="tiny" x="855" y="806" text-anchor="middle">TConn: connected witness structure with temporally composable serial joins</text>
+<text class="small" x="500" y="835" text-anchor="middle">t</text>
+<line class="slice" x1="735" y1="295" x2="735" y2="805"/>
+<text class="small" x="735" y="835" text-anchor="middle">τ₁</text>
+<line class="slice" x1="970" y1="295" x2="970" y2="805"/>
+<text class="small" x="970" y="835" text-anchor="middle">τ₂</text>
+<line class="slice" x1="1205" y1="295" x2="1205" y2="805"/>
+<text class="small" x="1205" y="835" text-anchor="middle">t+h</text>
+<text class="bold" x="420" y="346" text-anchor="end">g₁</text>
+<line class="track" x1="445" y1="340" x2="1255" y2="340"/>
+<circle class="node" cx="500" cy="340" r="20"/>
+<circle class="node" cx="735" cy="340" r="20"/>
+<circle class="node" cx="970" cy="340" r="20"/>
+<circle class="node" cx="1205" cy="340" r="20"/>
+<text class="bold" x="420" y="461" text-anchor="end">g₂</text>
+<line class="track" x1="445" y1="455" x2="1255" y2="455"/>
+<circle class="node" cx="500" cy="455" r="20"/>
+<circle class="node" cx="735" cy="455" r="20"/>
+<circle class="node" cx="970" cy="455" r="20"/>
+<circle class="node" cx="1205" cy="455" r="20"/>
+<text class="bold" x="420" y="576" text-anchor="end">g₃</text>
+<line class="track" x1="445" y1="570" x2="1255" y2="570"/>
+<circle class="node" cx="500" cy="570" r="20"/>
+<circle class="node" cx="735" cy="570" r="20"/>
+<circle class="node" cx="970" cy="570" r="20"/>
+<circle class="node" cx="1205" cy="570" r="20"/>
+<text class="bold" x="420" y="691" text-anchor="end">g₄</text>
+<line class="track" x1="445" y1="685" x2="1255" y2="685"/>
+<circle class="node" cx="500" cy="685" r="20"/>
+<circle class="node" cx="735" cy="685" r="20"/>
+<circle class="node" cx="970" cy="685" r="20"/>
+<circle class="node" cx="1205" cy="685" r="20"/>
+<path class="bracket" d="M455,310 L438,310 L438,715 L455,715"/>
+<path class="arrow" d="M240,116 C270,190 350,245 438,310"/>
+<text class="tiny" x="448" y="738">Idx: all major tracks indexed to κ_A</text>
+<path class="arrow" d="M715,116 L715,295"/>
+<text class="tiny" x="730" y="310">Joint: feasible joint schedule</text>
+<path class="causal" d="M520,350 C585,365 655,420 715,445"/>
+<path class="causal" d="M755,465 C820,480 890,535 950,560"/>
+<path class="causal" d="M990,580 C1055,595 1125,650 1185,675"/>
+<path class="capw" d="M520,675 C585,650 655,595 715,580"/>
+<path class="capw" d="M755,560 C820,535 890,480 950,465"/>
+<path class="capw" d="M990,445 C1055,420 1125,365 1185,350"/>
+<text class="tiny" x="835" y="407" text-anchor="middle">causal witnesses compose forward through maintained tracks</text>
+<text class="tiny" x="835" y="630" text-anchor="middle">capacity witnesses: reallocation-sensitive cross-track effects</text>
+<text class="bold" x="155" y="292">situated relation tracks within G_A</text>
+<rect class="rel" x="150" y="317" width="95" height="46" rx="11"/>
+<text class="small" x="197" y="345" text-anchor="middle">r^S</text>
+<text class="tiny" x="260" y="345">self-related</text>
+<path class="inc" d="M350,340 L478,340"/>
+<rect class="rel" x="150" y="432" width="95" height="46" rx="11"/>
+<text class="small" x="197" y="460" text-anchor="middle">r^Γ</text>
+<text class="tiny" x="260" y="460">interface-related</text>
+<path class="inc" d="M350,455 L478,455"/>
+<rect class="rel" x="150" y="547" width="95" height="46" rx="11"/>
+<text class="small" x="197" y="575" text-anchor="middle">r^W</text>
+<text class="tiny" x="260" y="575">world-related</text>
+<path class="inc" d="M350,570 L478,570"/>
+<text class="tiny" x="155" y="620">Sit: each class is represented by an active incident, causally relevant relation track</text>
+<text class="bold" x="745" y="752">evaluative relation track r_v ∈ E_A(t;h)</text>
+<line class="track" x1="735" y1="775" x2="1205" y2="775"/>
+<circle class="node" cx="735" cy="775" r="13"/>
+<circle class="node" cx="970" cy="775" r="13"/>
+<circle class="node" cx="1205" cy="775" r="13"/>
+<path class="inc" d="M970,762 L970,705"/>
+<text class="tiny" x="985" y="735">field incidence + RelCau</text>
+<path class="arrow" d="M1170,116 C1175,315 910,650 735,762"/>
+<text class="tiny" x="1185" y="205">ValRef: causal fidelity to reserve comparison</text>
+<rect class="box" x="1490" y="255" width="270" height="320" rx="18"/>
+<text class="bold" x="1625" y="290" text-anchor="middle">agent-level projections</text>
+<text class="sub" x="1625" y="335" text-anchor="middle">Π_A^H</text>
+<text class="tiny" x="1625" y="360" text-anchor="middle">whole-agent history</text>
+<text class="sub" x="1625" y="465" text-anchor="middle">Π_A^mot,H</text>
+<text class="tiny" x="1625" y="490" text-anchor="middle">maintenance, allocation, selection,</text>
+<text class="tiny" x="1625" y="510" text-anchor="middle">action, or later cognition</text>
+<path class="bracket" d="M1280,310 L1300,310 L1300,715 L1280,715"/>
+<path class="arrow" d="M1300,510 L1490,345"/>
+<text class="tiny" x="1310" y="535">Eff: every g_i can change Π_A^H</text>
+<path class="arrow" d="M1205,775 C1410,775 1420,485 1490,475"/>
+<text class="tiny" x="1320" y="738">ValMot: intervention on r_v changes Π_A^mot,H</text>
+<line class="arrow" x1="485" y1="852" x2="1225" y2="852"/>
+<text class="small" x="855" y="878" text-anchor="middle">realization-relevant ordered indices across h</text>
+<rect class="rel" x="255" y="895" width="1045" height="58" rx="12"/>
+<text class="tiny" x="777" y="916" text-anchor="middle">Tmp: nonempty slices + maintained tracks + TConn for causal and capacity witnesses</text>
+<text class="tiny" x="777" y="936" text-anchor="middle">persistence of Idx, Sit, Eff, and a qualifying ValMot witness; serial joins preserve earlier effects</text>
+</svg>
